@@ -1,13 +1,9 @@
 import React from 'react';
 import MusicCard from './components/MusicCard';
+import girlfriendPicture from './img/IMG_5155.jpeg';
+import replayAudio from './audio/SHINee - 누난 너무 예뻐 (Replay).mp3';
 
 function App() {
-  
-  const girlfriendPicture = "/src/img/IMG_5155.jpeg";
-  
-  
-  const replayAudioUrl = "/src/audio/SHINee - 누난 너무 예뻐 (Replay).mp3"; 
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 flex items-center justify-center p-6">
       {/* Background Effects */}
@@ -30,7 +26,7 @@ function App() {
           title="Replay"
           artist="SHINee"
           albumArt={girlfriendPicture}
-          audioSrc={replayAudioUrl}
+          audioSrc={replayAudio}
         />
 
         
